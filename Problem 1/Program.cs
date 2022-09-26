@@ -52,3 +52,4 @@ int m = DataEntry("Сколько строк будет в вашем масси
 int n = DataEntry("Сколько столбцов будет в вашем массиве?");
 int [,] array = new int [m, n];
 FillMatrix(array);
+FindStringWithMinSum(array);
